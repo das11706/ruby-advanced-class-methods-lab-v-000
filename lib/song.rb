@@ -70,33 +70,4 @@ class Song
   def self.destroy_all
     self.all.clear
   end
-  # song = self.new
-  # song.name = name
-  # self.all << song
-  # song.save
-  # song
-
-# "Taylor Swift - Blank Space.mp3"
-#   csv_data = "Elon Musk, 45, Tesla
-# Mark Zuckerberg, 32, Facebook
-# Martha Stewart, 74, MSL"
-#
-#
-# rows = csv_data.split("\n")
-# people = rows.collect do |row|
-#   data = row.split(", ")
-#   name = data[0]
-#   age = data[1]
-#   company = data[2]
-#   person = Person.new
-#   person.name = name
-#   person.age = age
-#   person.company = company
-#   person
-# end
-  # def self.create(name)
-  #   person = self.new
-  #   person.name = name
-  #   @@all << person
-  # end
 end
