@@ -67,6 +67,9 @@ class Song
     song
   end
 
+  def self.destroy_all
+    self.all.clear
+  end
   # song = self.new
   # song.name = name
   # self.all << song
